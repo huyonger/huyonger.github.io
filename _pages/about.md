@@ -35,6 +35,7 @@ Outside of work, I enjoy cycling and music.
 
 - **Beijing University of Posts and Telecommunications (BUPT)** <span class="cv-date">Sep. 2022 – Jun. 2025</span>  
   Master's in Software Engineering, School of Computer Science (National Pilot Software Engineering School)
+
 ## Experience 💼
 
 - **[Microsoft](https://www.microsoft.com/)** <span class="cv-date">2025 – Present</span>  
