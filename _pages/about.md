@@ -53,13 +53,3 @@ I'm Yong Hu, an Applied Scientist II at [Microsoft](https://www.microsoft.com/),
   Applied Scientist II, responsible for the Model Evolver of [Sico](https://github.com/microsoft/Sico)
 - **[ByteDance](https://www.bytedance.com/)** <span class="cv-date">Jul. 2021 – Jan. 2022</span>  
   Front-end Engineer Intern, Tech Platform (ByteTech), working on ByteTech and [Juejin](https://juejin.cn/)
-
-## Other Information 📝
-
-<details markdown="1">
-<summary>Patents & Software Copyrights</summary>
-
-- Chinese invention patent: *Remote Automatic Diagnosis System and Method Based on Intelligent Image Recognition and Medical Intelligent Reasoning* (影像智能识别与医学智能推理的远程自动诊断系统及方法)
-- Software copyright: *Remote Automatic Diagnosis System Based on Intelligent Image Recognition and Medical Intelligent Reasoning V1.0*
-
-</details>
