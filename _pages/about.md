@@ -50,5 +50,9 @@ I'm Yong Hu, an Applied Scientist II at [Microsoft](https://www.microsoft.com/),
 
 - **[Microsoft](https://www.microsoft.com/)** <span class="cv-date">2025 – Present</span>  
   Applied Scientist II, responsible for the Model Evolver of [Sico](https://github.com/microsoft/Sico)
+- **[Microsoft](https://www.microsoft.com/)** <span class="cv-date">Nov. 2023 – Jun. 2025</span>  
+  Full-stack Engineer Intern, Azure Data
+- **[Kuaishou](https://www.kuaishou.com/)** <span class="cv-date">May 2023 – Sep. 2023</span>  
+  Front-end Engineer Intern
 - **[ByteDance](https://www.bytedance.com/)** <span class="cv-date">Jul. 2021 – Jan. 2022</span>  
-  Front-end Engineer Intern, Tech Platform (ByteTech), working on ByteTech and [Juejin](https://juejin.cn/)
+  Front-end Engineer Intern
