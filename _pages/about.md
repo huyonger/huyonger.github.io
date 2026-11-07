@@ -27,7 +27,7 @@ redirect_from:
           Author A, **Yong Hu**, Author C
 {% endcomment %}
 
-I'm Yong Hu (胡勇), an Applied Scientist II at [Microsoft](https://www.microsoft.com/). I received my Master's degree in Software Engineering from [Beijing University of Posts and Telecommunications (BUPT)](https://www.bupt.edu.cn/) in 2025, and my Bachelor's degree in Software Engineering from [China University of Geosciences (Wuhan)](https://www.cug.edu.cn/) in 2022.
+I'm Yong Hu (胡勇), an Applied Scientist II at [Microsoft](https://www.microsoft.com/). I received my Master's degree in Software Engineering from [Beijing University of Posts and Telecommunications (BUPT)](https://www.bupt.edu.cn/) in 2025.
 
 Outside of work, I enjoy cycling and music.
 
@@ -35,21 +35,12 @@ Outside of work, I enjoy cycling and music.
 
 - **Beijing University of Posts and Telecommunications (BUPT)** <span class="cv-date">Sep. 2022 – Jun. 2025</span>  
   Master's in Software Engineering, School of Computer Science (National Pilot Software Engineering School)
-- **China University of Geosciences (Wuhan)** <span class="cv-date">Sep. 2018 – Jun. 2022</span>  
-  B.Eng. in Software Engineering (Excellent Engineer Program), School of Geography and Information Engineering
-
 ## Experience 💼
 
 - **[Microsoft](https://www.microsoft.com/)** <span class="cv-date">2025 – Present</span>  
   Applied Scientist II
 - **[ByteDance](https://www.bytedance.com/)** <span class="cv-date">Jul. 2021 – Jan. 2022</span>  
   Front-end Engineer Intern, Tech Platform (ByteTech), working on ByteTech and [Juejin](https://juejin.cn/)
-
-## Honors & Awards 🏆
-
-- <span class="news-date">2022</span> Outstanding Graduate, China University of Geosciences (Wuhan)
-- <span class="news-date">2020</span> Outstanding Member of the Communist Youth League, School of Geography and Information Engineering, CUG
-- <span class="news-date">2019</span> Outstanding Member of the Communist Youth League, School of Geography and Information Engineering, CUG
 
 ## Other Information 📝
 
