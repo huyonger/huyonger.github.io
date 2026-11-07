@@ -25,12 +25,11 @@ redirect_from:
     </details>
 {% endcomment %}
 
-I'm Yong Hu, an Applied Scientist II at [Microsoft](https://www.microsoft.com/), responsible for the Model Evolver of [Sico](https://github.com/microsoft/Sico). I received my Master's degree in Software Engineering from [Beijing University of Posts and Telecommunications (BUPT)](https://www.bupt.edu.cn/) in 2025.
+I'm Yong Hu, an Applied Scientist II at [Microsoft](https://www.microsoft.com/), responsible for the Model Evolver of [Sico](https://github.com/microsoft/Sico). My current research focuses on vision-language models (VLMs), data synthesis, and embodied AI. I received my Master's degree in Software Engineering from [Beijing University of Posts and Telecommunications (BUPT)](https://www.bupt.edu.cn/) in 2025.
 
 ## News 🌟
 
 - <span class="news-date">Jul. 2026</span> We released [GELab-Zero-4B-preview-Sico-Evolution](https://huggingface.co/microsoft/GELab-Zero-4B-preview-Sico-Evolution), the first open model evolved with [Sico](https://github.com/microsoft/Sico)'s model evolution pipeline: task success rate from 39.8% to 82.9%!
-- <span class="news-date">Jun. 2026</span> Our paper [MSDDS](https://ieeexplore.ieee.org/document/11729857) on multivariate time series anomaly detection was published at IJCNN 2026.
 
 ## Projects 🧰
 
