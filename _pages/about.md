@@ -25,9 +25,7 @@ redirect_from:
     </details>
 {% endcomment %}
 
-I'm Yong Hu (胡勇), an Applied Scientist II at [Microsoft](https://www.microsoft.com/). I'm responsible for the **Model Evolver** of [Sico](https://github.com/microsoft/Sico), an open-source platform for building and evolving Digital Workers. The Model Evolver gives the platform the ability to evolve its models, turning real execution traces into round-after-round model improvement. Built with it, we released [GELab-Zero-4B-preview-Sico-Evolution](https://huggingface.co/microsoft/GELab-Zero-4B-preview-Sico-Evolution), a 4B GUI agent that lifts task success rate from 39.8% (base model) to 82.9%.
-
-I received my Master's degree in Software Engineering from [Beijing University of Posts and Telecommunications (BUPT)](https://www.bupt.edu.cn/) in 2025. Outside of work, I enjoy cycling and music.
+I'm Yong Hu, an Applied Scientist II at [Microsoft](https://www.microsoft.com/), responsible for the Model Evolver of [Sico](https://github.com/microsoft/Sico). I received my Master's degree in Software Engineering from [Beijing University of Posts and Telecommunications (BUPT)](https://www.bupt.edu.cn/) in 2025.
 
 ## News 🌟
 

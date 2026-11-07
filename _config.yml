@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yong Hu (胡勇)"
+title                    : "Yong Hu"
 title_separator          : "-"
 name                     : &name "Yong Hu"
-description              : &description "Personal homepage of Yong Hu (胡勇)"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Personal homepage of Yong Hu"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://huyonger.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,13 +24,13 @@ repository               : "huyonger/huyonger.github.io"
 author:
   # Biographic information
   avatar           : # TODO: headshot file in /images/, e.g. "profile.jpg" (blank = no photo shown); also set og_image below
-  name             : "Yong Hu (胡勇)"
+  name             : "Yong Hu"
   pronouns         : # example: "she/her"
   bio              : "Applied Scientist II, Microsoft"
   location         : # TODO: e.g. "Beijing, China"
   employer         :
   uri              : # URL
-  email            : "2385410383@qq.com"
+  email            : "huyong@microsoft.com"
 
   # Academic websites
   academia         : # URL
