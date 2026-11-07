@@ -8,8 +8,8 @@ The GitHub Actions workflow in `.github/workflows/jekyll.yml` builds and deploys
 | What | Where |
 |---|---|
 | Sidebar: name, title, location, links | `_config.yml` → `author` |
-| Page content: about, news, publications, education, awards | `_pages/about.md` |
-| Extra styles: news dates, venue badges, collapsible blocks | bottom of `assets/css/main.scss` |
+| Page content: about, news, projects, publications, education, experience | `_pages/about.md` |
+| Layout and extra styles (page widths, masthead, news dates, venue badges); light theme only, no footer | bottom of `assets/css/main.scss`, `_layouts/default.html` |
 | Photo and favicons | `images/` |
 
 ## Local preview

@@ -12,8 +12,9 @@
     "vendor/breakpoint/breakpoint",
 
     "themes",
+    // Light theme only: the "_dark" theme import was removed so the site no
+    // longer follows the visitor's OS dark mode (matches qianhuiwu.github.io).
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
     "include/mixins",
     "vendor/susy/susy",
@@ -41,11 +42,16 @@
    Homepage additions (used by _pages/about.md)
    ========================================================================== */
 
-/* date / year column in News and Honors lists */
+/* News dates: small gray monospace tags (as on qianhuiwu.github.io) */
 .page__content .news-date {
   display: inline-block;
-  min-width: 5.5em;
-  font-weight: bold;
+  margin-right: 8px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+  color: #555;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 0.85em;
 }
 
 /* venue badge in Selected Publications */
@@ -87,32 +93,74 @@
 }
 
 /* ==========================================================================
-   Wider layout
-   The template keeps an empty right column (meant for a table of contents)
-   and caps the page at 925px on screens narrower than 1280px. This site has
-   no right column, so let the content use that space.
-   The max width is in rem, so on big screens (larger root font below) the
-   whole page scales up instead of sitting in a narrow strip.
+   Layout and masthead matched to qianhuiwu.github.io (an older AcademicPages):
+   - page up to 1100px wide, 1400px on screens 1400px and wider
+   - sidebar about 19.5%, content about 78.8%, no empty right column
+     (the template reserves one for a table of contents)
+   - 18px text at every width (template default)
+   - slim masthead with a gray title
+   - no footer (removed from _layouts/default.html)
    ========================================================================== */
-
-$page-max-width: 76rem; // 1368px at 18px, 1520px at 20px
-
-@include breakpoint(1600px) {
-  html {
-    font-size: 20px;
-  }
-}
 
 @include breakpoint($large) {
   #main,
-  .masthead__inner-wrap,
-  .page__footer footer {
-    max-width: $page-max-width;
+  .masthead__inner-wrap {
+    max-width: 1100px;
+  }
+
+  .sidebar {
+    width: 19.4915254237%;
+    margin-right: 1.6949152542%;
   }
 
   .page {
-    width: 80%;
-    padding-left: 3%;
+    /* the fixed sidebar can be a bit wider than its column; keep content on top */
+    position: relative;
+    z-index: 10;
+    width: 78.813559322%;
+    padding-left: 0;
     padding-right: 0;
   }
+}
+
+@include breakpoint(1400px) {
+  #main,
+  .masthead__inner-wrap {
+    max-width: 1400px;
+  }
+}
+
+/* room at the bottom of the page now that there is no footer */
+#main {
+  padding-bottom: 3em;
+}
+
+/* slim masthead: 48px high below 768px, 54px from 768px up. The script also
+   sets these paddings from the real masthead height; matching them here
+   avoids a jump on load. */
+.masthead__inner-wrap {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+body {
+  padding-top: 48px;
+
+  @include breakpoint($medium) {
+    padding-top: 54px;
+  }
+}
+
+@media screen and (min-width: $sidebar-screen-min-width) {
+  .sidebar {
+    padding-top: 54px;
+  }
+}
+
+/* gray site title, no "current page" underline */
+.greedy-nav a,
+.masthead__menu-item.selected a,
+.masthead__menu-item.selected a:hover {
+  color: #7a8288;
+  border-bottom: 0;
 }

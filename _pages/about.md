@@ -16,11 +16,16 @@ redirect_from:
     - <span class="venue">Venue Year</span> [Paper Title](link)  
       Author A, **Yong Hu**, Author C
 
-  News format (newest first). Older items can be folded:
+  News format (newest first, one item per line, no bullets; end every line
+  except the last with <br>):
+    <span class="news-date">Mon. YYYY</span> ...<br>
+    <span class="news-date">Mon. YYYY</span> ...
+
+  Older items can be folded:
     <details markdown="1">
     <summary>Show more news</summary>
 
-    - <span class="news-date">Mon. YYYY</span> ...
+    <span class="news-date">Mon. YYYY</span> ...
 
     </details>
 {% endcomment %}
@@ -29,7 +34,7 @@ I'm Yong Hu, an Applied Scientist II at [Microsoft](https://www.microsoft.com/),
 
 ## News 🌟
 
-- <span class="news-date">Jul. 2026</span> We released [GELab-Zero-4B-preview-Sico-Evolution](https://huggingface.co/microsoft/GELab-Zero-4B-preview-Sico-Evolution), the first open model evolved with [Sico](https://github.com/microsoft/Sico)'s model evolution pipeline: task success rate from 39.8% to 82.9%!
+<span class="news-date">Jul. 2026</span> We released [GELab-Zero-4B-preview-Sico-Evolution](https://huggingface.co/microsoft/GELab-Zero-4B-preview-Sico-Evolution), the first open model evolved with [Sico](https://github.com/microsoft/Sico)'s model evolution pipeline: task success rate from 39.8% to 82.9%!
 
 ## Projects 🧰
 
