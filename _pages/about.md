@@ -9,7 +9,8 @@ redirect_from:
 
 {% comment %}
   Still missing (add when available):
-    - Current position: first sentence below, Experience, and author.bio / author.location in _config.yml
+    - City: author.location in _config.yml
+    - Microsoft start month and team (Experience)
     - Research interests: a sentence after the first paragraph
     - Headshot: images/profile.jpg, then author.avatar and og_image in _config.yml
     - "News 🌟" section (goes right after the About text):
@@ -26,7 +27,7 @@ redirect_from:
           Author A, **Yong Hu**, Author C
 {% endcomment %}
 
-I'm Yong Hu (胡勇). I received my Master's degree in Software Engineering from [Beijing University of Posts and Telecommunications (BUPT)](https://www.bupt.edu.cn/), and my Bachelor's degree in Software Engineering from [China University of Geosciences (Wuhan)](https://www.cug.edu.cn/).
+I'm Yong Hu (胡勇), an Applied Scientist II at [Microsoft](https://www.microsoft.com/). I received my Master's degree in Software Engineering from [Beijing University of Posts and Telecommunications (BUPT)](https://www.bupt.edu.cn/) in 2025, and my Bachelor's degree in Software Engineering from [China University of Geosciences (Wuhan)](https://www.cug.edu.cn/) in 2022.
 
 Outside of work, I enjoy cycling and music.
 
@@ -39,6 +40,8 @@ Outside of work, I enjoy cycling and music.
 
 ## Experience 💼
 
+- **[Microsoft](https://www.microsoft.com/)** <span class="cv-date">2025 – Present</span>  
+  Applied Scientist II
 - **[ByteDance](https://www.bytedance.com/)** <span class="cv-date">Jul. 2021 – Jan. 2022</span>  
   Front-end Engineer Intern, Tech Platform (ByteTech), working on ByteTech and [Juejin](https://juejin.cn/)
 
