@@ -23,7 +23,7 @@ repository               : "huyonger/huyonger.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : # TODO: headshot file in /images/, e.g. "profile.jpg" (blank = no photo shown); also set og_image below
+  avatar           : "profile.jpg" # headshot in /images/ (blank = no photo shown); og_image below uses the same file
   name             : "Yong Hu"
   pronouns         : # example: "she/her"
   bio              : "Applied Scientist II, Microsoft"
@@ -143,7 +143,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : profile.png   # Social media default site image (lives in /images/) - generic silhouette until author.avatar is set
+og_image                 : profile.jpg   # Social media default site image (lives in /images/) - the headshot
 og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
