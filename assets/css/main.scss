@@ -85,3 +85,34 @@
     cursor: pointer;
   }
 }
+
+/* ==========================================================================
+   Wider layout
+   The template keeps an empty right column (meant for a table of contents)
+   and caps the page at 925px on screens narrower than 1280px. This site has
+   no right column, so let the content use that space.
+   The max width is in rem, so on big screens (larger root font below) the
+   whole page scales up instead of sitting in a narrow strip.
+   ========================================================================== */
+
+$page-max-width: 76rem; // 1368px at 18px, 1520px at 20px
+
+@include breakpoint(1600px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include breakpoint($large) {
+  #main,
+  .masthead__inner-wrap,
+  .page__footer footer {
+    max-width: $page-max-width;
+  }
+
+  .page {
+    width: 80%;
+    padding-left: 3%;
+    padding-right: 0;
+  }
+}
