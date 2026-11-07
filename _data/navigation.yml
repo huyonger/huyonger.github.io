@@ -1,0 +1,6 @@
+# Links shown in the header, in order. Empty = header shows only the site title
+# (single-page homepage). Add entries like:
+#   - title: "CV"
+#     url: /files/cv.pdf
+
+main: []

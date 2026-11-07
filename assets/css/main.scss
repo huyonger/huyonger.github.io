@@ -1,0 +1,87 @@
+---
+---
+
+/*
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ */
+
+@import
+    "vendor/breakpoint/breakpoint",
+
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar"
+;
+
+/* ==========================================================================
+   Homepage additions (used by _pages/about.md)
+   ========================================================================== */
+
+/* date / year column in News and Honors lists */
+.page__content .news-date {
+  display: inline-block;
+  min-width: 5.5em;
+  font-weight: bold;
+}
+
+/* venue badge in Selected Publications */
+.page__content .venue {
+  display: inline-block;
+  margin-right: 0.35em;
+  padding: 0 0.45em;
+  border-radius: 3px;
+  background-color: var(--global-base-color);
+  color: #fff;
+  font-size: 0.75em;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+/* right-aligned dates in Education / Experience */
+.page__content .cv-date {
+  float: right;
+  color: #7a8288;
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  .page__content .cv-date {
+    display: block;
+    float: none;
+  }
+}
+
+/* collapsible blocks (Show more news, Other Information) */
+.page__content details {
+  margin: 0.5em 0 1em;
+
+  summary {
+    color: var(--global-link-color);
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
