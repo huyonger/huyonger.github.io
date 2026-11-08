@@ -169,3 +169,76 @@ body {
   color: #7a8288;
   border-bottom: 0;
 }
+
+/* ==========================================================================
+   Blog post table of contents: put {% include toc icon="list" title="Contents" %}
+   in a post. From 1280px wide it sits in a right-hand column and stays in view
+   while scrolling; on narrower screens it is a box at the top of the post.
+   ========================================================================== */
+
+.page__content > .sidebar__right {
+  float: none;
+  width: auto;
+  margin: 0 0 1.5em;
+}
+
+.page__content .toc {
+  /* the template's TOC is uppercase with wide letter spacing; use normal text */
+  text-transform: none;
+  letter-spacing: normal;
+
+  .nav__title {
+    margin: 0 0 0.5em;
+    font-size: 0.8rem;
+  }
+
+  .toc__menu {
+    font-size: 0.8rem;
+
+    li {
+      font-size: 1em;
+    }
+
+    a {
+      font-size: 1em;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    > li > a {
+      font-weight: 600;
+    }
+
+    li ul > li a {
+      color: #6c757d;
+      font-size: 0.95em;
+      font-weight: normal;
+    }
+  }
+}
+
+@include breakpoint($x-large) {
+  .page__inner-wrap:has(> .page__content > .sidebar__right) {
+    position: relative;
+    padding-right: 252px; /* TOC column (220px) + gap */
+  }
+
+  .page__content > .sidebar__right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 220px;
+    margin: 0;
+  }
+
+  .page__content > .sidebar__right .toc {
+    position: sticky;
+    top: 74px; /* below the 54px masthead */
+    max-height: calc(100vh - 94px);
+    overflow-y: auto;
+  }
+}

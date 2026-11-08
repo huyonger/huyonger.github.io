@@ -1,6 +1,5 @@
 # Links shown in the header after the site title, in order.
 # Empty list (main: []) = header shows only the site title.
+# Blog posts are listed on the homepage (Blog section in _pages/about.md), not here.
 
-main:
-  - title: "Blog"
-    url: /blog/
+main: []
