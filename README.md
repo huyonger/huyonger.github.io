@@ -9,6 +9,8 @@ The GitHub Actions workflow in `.github/workflows/jekyll.yml` builds and deploys
 |---|---|
 | Sidebar: name, title, location, links | `_config.yml` → `author` |
 | Page content: about, news, projects, publications, education, experience | `_pages/about.md` |
+| Blog posts (listed at /blog/, linked from the header) | `_posts/YYYY-MM-DD-title.md`; start from `_drafts/post-template.md` |
+| Header links | `_data/navigation.yml` |
 | Layout and extra styles (page widths, masthead, news dates, venue badges); light theme only, no footer | bottom of `assets/css/main.scss`, `_layouts/default.html` |
 | Photo and favicons | `images/` |
 

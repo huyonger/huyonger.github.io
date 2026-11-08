@@ -114,12 +114,17 @@
   }
 
   .page {
-    /* the fixed sidebar can be a bit wider than its column; keep content on top */
-    position: relative;
-    z-index: 10;
     width: 78.813559322%;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  /* the fixed sidebar can be a bit wider than its column; keep content on top.
+     (.archive = Blog page; its template widths already line up with .page) */
+  .page,
+  .archive {
+    position: relative;
+    z-index: 10;
   }
 }
 
